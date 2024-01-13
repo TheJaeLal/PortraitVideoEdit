@@ -36,16 +36,6 @@ for Edge Conditioned ControlNet based approach
 ---
 
 
-#### Hyperparameters (Optional)
-
-You can define the following hyperparameters:
-* **Motion field strength**:   `motion_field_strength_x` = $\delta_x$  and `motion_field_strength_y` = $\delta_y$ (see our paper, Sect. 3.3.1). Default: `motion_field_strength_x=motion_field_strength_y= 12`.
-* $T$ and $T'$ (see our paper, Sect. 3.3.1). Define values `t0` and `t1` in the range `{0,...,50}`. Default: `t0=44`, `t1=47` (DDIM steps). Corresponds to timesteps `881` and `941`, respectively. 
-* **Video length**: Define the number of frames `video_length` to be generated. Default: `video_length=8`.
-
-
----
-
 #### Hyperparameters
 
 - `start_t` (Default: 0): Specifies the starting time in seconds for the video processing. A value of 0 means the processing starts from the beginning of the video.
