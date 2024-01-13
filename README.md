@@ -75,8 +75,13 @@ https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/4078f719-50dc-49d
 Prompt: "Beautiful girl in superman costume in front of white background, a high-quality, detailed, and professional photo"
 
 
-https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/a7f2b9e0-231b-4cd7-a42b-b569eade3517
 
+https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/399387db-f733-450a-8e39-79b755d1fba9
+
+
+
+
+---
 
 Adapted from [Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero).
 
