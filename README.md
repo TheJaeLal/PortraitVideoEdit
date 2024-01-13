@@ -1,6 +1,6 @@
 # Video Portrait Editing
 
-Adapted from [Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero).
+## [Click Here for Analysis Report](Analysis_Report.md)
 
 
 ## Setup
@@ -77,6 +77,8 @@ Prompt: "Beautiful girl in superman costume in front of white background, a high
 
 https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/a7f2b9e0-231b-4cd7-a42b-b569eade3517
 
+
+Adapted from [Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero).
 
 
 
