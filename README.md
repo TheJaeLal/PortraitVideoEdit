@@ -36,27 +36,6 @@ for Edge Conditioned ControlNet based approach
 ---
 
 
-### Text-To-Video
-To directly call our text-to-video generator, run this python command which stores the result in `tmp/text2video/A_horse_galloping_on_a_street.mp4` :
-``` python
-prompt = "A horse galloping on a street"
-params = {"t0": 44, "t1": 47 , "motion_field_strength_x" : 12, "motion_field_strength_y" : 12, "video_length": 8}
-
-out_path, fps = f"./text2video_{prompt.replace(' ','_')}.mp4", 4
-model.process_text2video(prompt, fps = fps, path = out_path, **params)
-```
-
-To use a different stable diffusion base model run this python command:
-``` python
-from hf_utils import get_model_list
-model_list = get_model_list()
-for idx, name in enumerate(model_list):
-  print(idx, name)
-idx = int(input("Select the model by the listed number: ")) # select the model of your choice
-model.process_text2video(prompt, model_name = model_list[idx], fps = fps, path = out_path, **params)
-```
-
-
 #### Hyperparameters (Optional)
 
 You can define the following hyperparameters:
