@@ -29,7 +29,7 @@ for Instruct-Pix2Pix
 
 for Edge Conditioned ControlNet based approach
 ```
-  python controlnetcanny.py controlnet_config.json
+  python controlnet.py controlnet_config.json
 ```
 
 
