@@ -1,0 +1,16 @@
+#torch==1.13.1
+#torchvision==0.14.1
+addict==2.4.0
+decord==0.6.0
+diffusers==0.14.0
+einops==0.6.0
+gradio==3.23.0
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+invisible-watermark>=0.1.5
+moviepy==1.0.3
+opencv_python==4.7.0.72
+Pillow==9.4.0
+tqdm==4.64.1
+transformers==4.26.0
+safetensors==0.2.7

@@ -1,0 +1,16 @@
+{
+    "video_path": "../demo_input_cropped.mp4",
+    "save_path": "../demo_output_controlnet.mp4", 
+    "prompt": "beautiful girl in superman costume in front of white background, a high-quality, detailed, and professional photo",
+    "chunk_size": 8,
+    "num_inference_steps": 20,
+    "controlnet_conditioning_scale": 1.0,
+    "guidance_scale": 9.0,
+    "seed": 42,
+    "low_threshold":100,
+    "high_threshold":180,
+    "resolution":512,
+    "start_t": 0,
+    "end_t": -1,
+    "out_fps": -1
+}

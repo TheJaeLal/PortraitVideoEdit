@@ -1,0 +1,12 @@
+{
+    "video": "../demo_input_cropped.mp4", 
+    "save_path": "../demo_output_pix2pix.mp4",
+    "prompt": "Turn the woman's clothes to superman costume",  
+    "resolution": 512,
+    "seed": 0,
+    "image_guidance_scale": 1.0,
+    "start_t": 0,
+    "end_t": -1,
+    "out_fps": 12,
+    "chunk_size": 8
+}
