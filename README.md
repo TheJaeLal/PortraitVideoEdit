@@ -46,29 +46,6 @@ You can define the following hyperparameters:
 
 ---
 
-
-### Text-To-Video with Pose Control
-To directly call our text-to-video generator with pose control, run this python command:
-``` python
-prompt = 'an astronaut dancing in outer space'
-motion_path = '__assets__/poses_skeleton_gifs/dance1_corr.mp4'
-out_path = f"./text2video_pose_guidance_{prompt.replace(' ','_')}.gif"
-model.process_controlnet_pose(motion_path, prompt=prompt, save_path=out_path)
-```
-
-
----
-
-
-### Text-To-Video with Edge Control
-To directly call our text-to-video generator with edge control, run this python command:
-``` python
-prompt = 'oil painting of a deer, a high-quality, detailed, and professional photo'
-video_path = '__assets__/canny_videos_mp4/deer.mp4'
-out_path = f'./text2video_edge_guidance_{prompt}.mp4'
-model.process_controlnet_canny(video_path, prompt=prompt, save_path=out_path)
-```
-
 #### Hyperparameters
 
 - `start_t` (Default: 0): Specifies the starting time in seconds for the video processing. A value of 0 means the processing starts from the beginning of the video.
@@ -89,15 +66,27 @@ model.process_controlnet_canny(video_path, prompt=prompt, save_path=out_path)
 
 ## Results
 
-### Original
 
+
+
+
+### Original
+https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/a69c8e30-bf7b-4021-a22b-9d560393161f
 
 ### Video Instruct Pix2Pix
 Prompt: "Turn the woman's clothes to superman costume"
 
 
+https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/4078f719-50dc-49df-bed1-20890e8b5e0f
+
+
+
 ### ControlNet with Edge Guidance
 Prompt: "Beautiful girl in superman costume in front of white background, a high-quality, detailed, and professional photo"
+
+
+https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/a7f2b9e0-231b-4cd7-a42b-b569eade3517
+
 
 
 
