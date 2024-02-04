@@ -78,6 +78,12 @@ Prompt: "Beautiful girl in superman costume in front of white background, a high
 
 https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/399387db-f733-450a-8e39-79b755d1fba9
 
+### Updated - RAVE Results (ControlNet with Face-Landmark Edge Guidance)
+
+
+https://github.com/TheJaeLal/PortraitVideoEdit/assets/24888438/b34825c7-3c51-49d1-8989-64470bf2b874
+
+
 
 
 
